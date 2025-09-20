@@ -1,0 +1,24 @@
+{
+  "name": "agamya-hackathon",
+  "version": "1.0.0",
+  "description": "**Streamline your meetings and boost team productivity.**  \r In modern collaborative workplaces, meetings often generate numerous tasks but lack systematic follow-up, leading to inefficiencies. This project presents a Meeting Action Tracker that leverages Natural Language Processing (NLP) and Intelligent Task Management to identify action items from meeting transcripts or notes. Using named entity recognition and context-aware classification, the system assigns tasks to the appropriate stakeholders, sets deadlines, and syncs them with calendars or project management tools. The solution ensures accountability, reduces manual effort, and enhances collaboration. With real-time updates and reminders, the platform bridges the gap between discussions and execution, transforming meetings into actionable outcomes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^3.7.4",
+    "axios": "^1.12.2",
+    "compromise": "^14.14.4",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "natural": "^8.1.0",
+    "node-cron": "^4.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
