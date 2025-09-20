@@ -1,0 +1,3 @@
+John will prepare the slides by next Friday.
+Alice must review the design document tomorrow.
+Bob should send the report by Monday.
